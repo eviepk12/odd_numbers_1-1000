@@ -1,3 +1,5 @@
+// Print out odd numbers from 1-1000
+
 #include <iostream>
 
 using std::cout;
@@ -10,7 +12,7 @@ int main ()
 
     for (int i = 1; i<=nomor;i++)
     {
-        if (i % 2)
+        if (i % 2) 
         {
             cout << i << " ";
         }
